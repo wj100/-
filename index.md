@@ -14,7 +14,7 @@
 
 ## 工作经历
 
-* 2021.05-2024.05&emsp;&emsp;&emsp;慧博云通科技股份有限公司-至今&emsp;&emsp;&emsp;北京联和利泰科技股份有限公司(驻网易)
+* 2021.05-至今&emsp;&emsp;&emsp;慧博云通科技股份有限公司,北京联和利泰科技股份有限公司(驻网易)
 * 2020.08至2021.05&emsp;柯莱特科技股份有限公司(驻阿里)
 * 2019.06至2020.08&emsp;南京英斯特信息科技有限公司
 
@@ -25,9 +25,9 @@
 * __主要技术__  
     AngularJs + Vue2 + React + Node
 * __项目描述__  
-    **参与**维护网易企业邮箱产品线，包含官网，webmail，小程序，邮箱管理后台，密保平台，统一登录页等。
-    **负责**企业邮箱接入企微，飞书，钉钉第三方办公平台小程序，难点：兼容各平台授权流程差异与变动，附件文件预览下载差异。
-    **负责**邮箱管理后台（AngularJs）业务迭代，期间实现年度报告，项目国际化改造，邮箱全产品明水印功能。
+    **参与**维护网易企业邮箱产品线，包含官网，webmail，小程序，邮箱管理后台，密保平台，统一登录页等。  
+    **负责**企业邮箱接入企微，飞书，钉钉第三方办公平台小程序，难点：兼容各平台授权流程差异与变动，附件文件预览下载差异。  
+    **负责**邮箱管理后台（AngularJs）业务迭代，期间实现年度报告，项目国际化改造，邮箱全产品明水印功能。  
     **负责**wework管理平台（React）业务迭代，该系统供部门技术，售前售后，销售，实施人员使用，涵盖邮箱产品运维系统、查询系统、直邮系统、团队管理、客群系统等。
 
 ### 网易云工厂
@@ -35,8 +35,8 @@
 * __主要技术__  
     React + Vue2
 * __项目描述__  
-    为部门外贸业务探索开发官网+供应链管理系统。独立完成项目技术选型及开发部署。
-    官网使用 React + 预渲染 + TailwindCSS实现。为保证海外用户访问速度，进行测试优化。包括使用 node 实现静态资源的 cdn上传替换，对 webpack进行打包优化。[方案调研](https://blog.csdn.net/qq_44472722/article/details/142899417?sharetype=blogdetail&sharerId=142899417&sharerefer=PC&sharesource=qq_44472722&spm=1011.2480.3001.8118)
+    为部门外贸业务探索开发官网+供应链管理系统。独立完成项目技术选型及开发部署。  
+    官网使用 React + 预渲染 + TailwindCSS实现。为保证海外用户访问速度，进行测试优化。包括使用 node 实现静态资源的 cdn上传替换，对 webpack进行打包优化([方案调研](https://blog.csdn.net/qq_44472722/article/details/142899417?sharetype=blogdetail&sharerId=142899417&sharerefer=PC&sharesource=qq_44472722&spm=1011.2480.3001.8118))。  
     供应链管理系统在开源项目 [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)上进行开发，修改了部分角色权限。主要实现对产品业务线，供应商，业务员，客户，订单流转状态的管理。
 
 ### 气象大数据治理中心
@@ -87,11 +87,6 @@
       <td style="width:180px"><a href="https://www.npmjs.com/package/watermark-pub"><b>watermark-pub</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/npm/dt/watermark-pub.svg"/></td>
       <td>前端明水印</td>
-    </tr>
-    <tr>
-      <td style="width:180px"><a href="https://github.com/wj100/word2html"><b>word2html</b></a></td>
-      <td></td>
-      <td>为企业邮协议文档更迭，基于开源项目进行二次开发的word转html工具</td>
     </tr>
   </tbody>
 </table>
