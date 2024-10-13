@@ -1,40 +1,43 @@
 [下载pdf简历](https://raw.githubusercontent.com/wj100/resume/gh-pages/汪骏（前端）.pdf)
 
-## 个人信息
+## 个人资料
 
-* 姓 名：汪骏
-* 出生年月：1995.8
-* 电话/微信：19937785238
-* 学 历：本科
+* 个人信息：汪骏  /  男  /  29岁  /  19937785238  /  本科
 * 邮 箱：<mail@wangjun.work>
 * github：[github.com/wj100](http://github.com/wj100){:target="_blank"}
 * 博 客：[csdn.wangjun.work](http://csdn.wangjun.work){:target="_blank"}
 
 ## 专业技能
 
-* 掌握Vue,React,angularJs技术栈
-* 掌握小程序等移动端开发技术
-* 掌握Webpack,Rollup前端构建工具
-* 熟练使用Nodejs
-* 熟悉常用liunx命令，了解Java、Nginx、MySql
+* 掌握 Javascript, Vue, React, Node, 小程序
+* 熟悉 Linux, Nginx, Docker 等
 
 ## 工作经历
 
-* 2021.05至今&emsp;&emsp;&emsp;慧博云通科技股份有限公司(驻网易)
+* 2021.05-2024.05&emsp;&emsp;&emsp;慧博云通科技股份有限公司-至今&emsp;&emsp;&emsp;北京联和利泰科技股份有限公司(驻网易)
 * 2020.08至2021.05&emsp;柯莱特科技股份有限公司(驻阿里)
 * 2019.06至2020.08&emsp;南京英斯特信息科技有限公司
 
 ## 项目经历
 
-### 个人博客
+### 网易企业邮箱业务
 
 * __主要技术__  
-    Vue2 + Node + Express + Mysql + pm2
+    AngularJs + Vue2 + React + Node
 * __项目描述__  
-    该项目为方便个人工作学习记录笔记所开发，实现了文章的发布，分类，搜索，评论等功能。
- 从需求分析到数据库表设计，前后端开发，部署上线均为个人独立完成，博客功能不是很复杂，但是让我对前后端分离开发，Vue的组件化思想，Node对数据库的操控，项目的整个生命周期等方面都有了更好的认识。
-* __技术实现__  
-    使用Vue全家桶进行前端部分的开发，后端运用node及express框架实现对数据库的增删改查，后期使用koa重写了一次。前端使用nginx部署，后端使用pm2实现进程守护
+    **参与**维护网易企业邮箱产品线，包含官网，webmail，小程序，邮箱管理后台，密保平台，统一登录页等。
+    **负责**企业邮箱接入企微，飞书，钉钉第三方办公平台小程序，难点：兼容各平台授权流程差异与变动，附件文件预览下载差异。
+    **负责**邮箱管理后台（AngularJs）业务迭代，期间实现年度报告，项目国际化改造，邮箱全产品明水印功能。
+    **负责**wework管理平台（React）业务迭代，该系统供部门技术，售前售后，销售，实施人员使用，涵盖邮箱产品运维系统、查询系统、直邮系统、团队管理、客群系统等。
+
+### 网易云工厂
+
+* __主要技术__  
+    React + Vue2
+* __项目描述__  
+    为部门外贸业务探索开发官网+供应链管理系统。独立完成项目技术选型及开发部署。
+    官网使用 React + 预渲染 + TailwindCSS实现。为保证海外用户访问速度，进行测试优化。包括使用 node 实现静态资源的 cdn上传替换，对 webpack进行打包优化。[方案调研](https://blog.csdn.net/qq_44472722/article/details/142899417?sharetype=blogdetail&sharerId=142899417&sharerefer=PC&sharesource=qq_44472722&spm=1011.2480.3001.8118)
+    供应链管理系统在开源项目 [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)上进行开发，修改了部分角色权限。主要实现对产品业务线，供应商，业务员，客户，订单流转状态的管理。
 
 ### 气象大数据治理中心
 
@@ -45,23 +48,14 @@
 * __技术实现__  
     使用echarts及数字滚动插件开发可视化监控页面，调用天地图相关api对地图进行点选圈选框选获取经纬度，使用element表单表格等组件创建资源信息，运用相关插件实现省市区地域的选择，树形结构的展开合并，禁用原生鼠标右击菜单并生成系统所需菜单，运用echarts库及相关算法实现可拖拽改变的折线图柱形图。
 
-### wework管理平台
+### 个人博客
 
 * __主要技术__  
-    React + AntDesign + Ts
+    Vue2 + Node + Express + Mysql + pm2
 * __项目描述__  
-    该平台为企业邮箱部门技术、客服、售后使用，涵盖了企业邮箱产品运维系统、查询系统、直邮系统、团队管理、客群系统。对接了反垃圾、封解禁、日志查询、短信触达等等功能。区分角色，按钮级别权限。
+    该项目为方便个人工作学习记录笔记所开发，实现了文章的发布，分类，搜索，评论等功能。 从需求分析到数据库表设计，前后端开发，部署上线均为个人独立完成，博客功能不是很复杂，但是让我对前后端分离开发，Vue的组件化思想，Node对数据库的操控，项目的整个生命周期等方面都有了更好的认识。
 * __技术实现__  
-    使用umi搭建项目框架，AntDesign pro快速进行页面开发，登录对接集团统一认证中心，各功能模块完全解耦，少量全局状态使用dva管理
-
-### 企业邮箱对接第三方平台（微信、企微、钉钉、飞书）
-
-* __主要技术__  
-    Vue2 + 各平台小程序
-* __项目描述__  
-    为企业邮箱接入各大IM办公平台，企微/钉钉使用微应用开发登录页，登录后跳转webmail并实现平台账号和邮箱账号的绑定。微信/飞书使用小程序开发登录页，登录后使用webview跳转。
-* __技术难点__  
-    平台授权流程差异与变动，企业域名cname方案，平台差异兼容邮件文件下载，预览功能。
+    使用Vue全家桶进行前端部分的开发，后端运用node及express框架实现对数据库的增删改查，后期使用koa重写了一次。前端使用nginx部署，后端使用pm2实现进程守护。
 
 ## 开源
 
@@ -75,27 +69,27 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://www.npmjs.com/package/paging-pdf"><b>paging-pdf</b></a></td>
+      <td style="width:180px"><a href="https://www.npmjs.com/package/paging-pdf"><b>paging-pdf</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/npm/dt/paging-pdf.svg"/></td>
       <td>企业邮箱年终报告沉淀下来的pdf分页下载工具</td>
     </tr>
     <tr>
-      <td><a href="https://www.npmjs.com/package/vue-year-picker"><b>vue-year-picker</b></a></td>
+      <td style="width:180px"><a href="https://www.npmjs.com/package/vue-year-picker"><b>vue-year-picker</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/npm/dt/vue-year-picker.svg"/></td>
       <td>基于vue2的仿ant风格年份选择组件</td>
     </tr>
     <tr>
-      <td><a href="https://www.npmjs.com/package/auto-size-echart"><b>auto-size-echart</b></a></td>
+      <td style="width:180px"><a href="https://www.npmjs.com/package/auto-size-echart"><b>auto-size-echart</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/npm/dt/auto-size-echart.svg"/></td>
       <td>响应式Echarts解决方案</td>
     </tr>
     <tr>
-      <td><a href="https://www.npmjs.com/package/watermark-pub"><b>watermark-pub</b></a></td>
+      <td style="width:180px"><a href="https://www.npmjs.com/package/watermark-pub"><b>watermark-pub</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/npm/dt/watermark-pub.svg"/></td>
       <td>前端明水印</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/wj100/word2html"><b>word2html</b></a></td>
+      <td style="width:180px"><a href="https://github.com/wj100/word2html"><b>word2html</b></a></td>
       <td></td>
       <td>为企业邮协议文档更迭，基于开源项目进行二次开发的word转html工具</td>
     </tr>
