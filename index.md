@@ -37,8 +37,8 @@
     React + Vue2
 * __项目描述__  
     支撑部门外贸业务探索开发官网+供应链管理系统。独立完成项目技术选型及开发部署。  
-    官网使用 React + 预渲染 + TailwindCSS实现。为保证海外用户访问速度，进行测试优化。包括使用 node 实现静态资源的 cdn上传替换，对 webpack进行打包优化([方案调研](https://blog.csdn.net/qq_44472722/article/details/142899417?sharetype=blogdetail&sharerId=142899417&sharerefer=PC&sharesource=qq_44472722&spm=1011.2480.3001.8118))。  
-    供应链管理系统在开源项目 [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)上进行开发，修改了部分角色权限。主要实现对产品业务线，供应商，业务员，客户，订单流转状态的管理。
+    __官网__ 使用 React + 预渲染 + TailwindCSS实现。为保证海外用户访问速度，进行测试优化。包括使用 node 实现静态资源的 cdn上传替换，对 webpack进行打包优化([方案调研](https://blog.csdn.net/qq_44472722/article/details/142899417?sharetype=blogdetail&sharerId=142899417&sharerefer=PC&sharesource=qq_44472722&spm=1011.2480.3001.8118))。  
+    __供应链管理系统__ 在开源项目 [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)上进行开发，修改了部分角色权限。主要实现对产品业务线，供应商，业务员，客户，订单流转状态的管理。
 
 ### 气象大数据治理中心
 
