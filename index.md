@@ -9,7 +9,12 @@
 
 ## 专业技能
 
-* 掌握 Javascript, Vue, React, Node, 小程序
+* 理解 web 标签语义化，熟练使用css3，es6 语法熟练
+* 熟练使用 Vue，React技术栈，及常用工具（Git、Eslint、Webpack、CI/CD）
+* 熟练使用 Node.js，对 Express,Koa 各类中间件有使用经验
+* 熟悉小程序，uni-app，jsBridge 等移动端开发技术
+* 熟悉 Mysql，MongoDB 数据库
+* 掌握常用 Liunx 命令，Nginx 配置，了解 Java 语言，Shell 编程，Docker 部署
 
 ## 工作经历
 
