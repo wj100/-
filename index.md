@@ -59,10 +59,9 @@
 * __主要技术__  
     jquery + Vue + ECharts + WebGis
 * __项目描述__  
-    该项目为数据可视化建设管理平台、运用内部开发的 gis 地图结合 ECharts 进行数据展示与切换，通过地图的悬浮、点击等事件绘制各类地图覆盖物，并与 ECharts 数
-    据产生联动。实现人员，单位的搜索匹配，并生成人员画像。实现选择部门与地图，图表的数据联动。通过输入参数动态生成各类问题的解决方案。
+    该项目为数据可视化建设管理平台、运用内部开发的 gis 地图结合 ECharts 进行数据展示与切换，通过地图的悬浮、点击等事件绘制各类地图覆盖物，并与 ECharts 数据产生联动。实现人员，单位的搜索匹配，并生成人员画像。实现选择部门与地图，图表的数据联动。通过输入参数动态生成各类问题的解决方案。
 * __技术实现__  
-    运用 jQuery+js 制作各级导航，使用 Vue 的各类 v-指令完成搜索，列表渲染等功能。使用大量 ECharts 图表开发可视化大屏页面。运用地图的各类事件，layer开发页面特效
+    运用 jQuery+js 制作各级导航，使用 Vue 的各类 v-指令完成搜索，列表渲染等功能。使用大量 ECharts 图表开发可视化大屏页面。运用地图的各类事件，layer层开发页面特效。
 
 ### 数据运营平台
 
@@ -88,11 +87,16 @@
   <thead align="center">
       <tr>
         <td><b>🎁 项目</b></td>
-        <td><b>⏬ 下载量</b></td>
+        <td><b>⏬ npm下载量</b></td>
         <td><b>💬 备注</b></td>
      </tr>
   </thead>
   <tbody>
+    <tr>
+      <td style="width:180px"><a href="https://github.com/wj100/angularJs-i18n"><b>angularJs-i18n</b></a></td>
+      <td>-</td>
+      <td>使用babel和angular-html-parser实现 angularjs 项目的国际化方案</td>
+    </tr>
     <tr>
       <td style="width:180px"><a href="https://www.npmjs.com/package/paging-pdf"><b>paging-pdf</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/npm/dt/paging-pdf.svg"/></td>
